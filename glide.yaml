@@ -1,0 +1,13 @@
+package: girino
+import:
+- package: github.com/decred/dcrd
+  version: ~0.8.2
+  subpackages:
+  - chaincfg/chainhash
+  - dcrjson
+- package: github.com/decred/dcrrpcclient
+  version: ~0.8.0
+- package: github.com/decred/dcrutil
+  version: ~0.8.0
+- package: github.com/gorilla/mux
+  version: ~1.3.0

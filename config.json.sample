@@ -1,0 +1,16 @@
+{
+	"WalletEnabled": false,
+	"DaemonConfig": {
+		"Host":      "localhost",
+		"User":      "username",
+		"Password":  "password",
+		"IsTestnet": true
+	},
+	"WalletConfig": {
+		"Host":      "localhost",
+		"User":      "username",
+		"Password":  "password",
+		"IsTestnet": true
+	},
+	"HttpServerListen": ":8080"
+}
